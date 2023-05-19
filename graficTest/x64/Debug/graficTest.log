@@ -1,0 +1,8 @@
+﻿  action.cpp
+  cmdGrafic.cpp
+C:\Users\User\Desktop\ун\graficTest\graficTest\cmdGrafic.cpp(42,10): warning C4101: wText: неиспользованная локальная переменная
+C:\Users\User\Desktop\ун\graficTest\graficTest\cmdGrafic.cpp(80,51): warning C4244: =: преобразование "double" в "short", возможна потеря данных
+  start.cpp
+C:\Users\User\Desktop\ун\graficTest\graficTest\start.cpp(26,17): error C2660: showObj: функция не принимает 0 аргументов
+C:\Users\User\Desktop\ун\graficTest\graficTest\grafic.h(7,6): message : см. объявление "showObj"
+  Создание кода...
