@@ -75,10 +75,10 @@ unsigned int k = 0;
 void sinMove() {
 	k++;
 		clearMatrix(testObj.x, testObj.y, testObj.img->wight, testObj.img->hight);
-		testObj.x = bg.wight/2 + 1 - testObj.img->wight + sin(k*3.14/3000) * (bg.wight/2 - testObj.img->wight);
+		testObj.x = bg.wight/2 + 1 - testObj.img->wight + sin(k*3.14/4000) * (bg.wight/2 - testObj.img->wight);
 		showObj(&testObj);
 		updateShow();
-		if (k == 12000)
+		if (k == 8000)
 			k = 0;
 }
 
